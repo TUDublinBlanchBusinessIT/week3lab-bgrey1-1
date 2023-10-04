@@ -1,0 +1,26 @@
+<html>
+    <head>
+         <title>Didier Test</title>
+    </head>
+    <body>
+        <h1>Yesso!</h1>
+    </body>
+
+    <table border="1">
+        <tr>
+            <th>Books</th>
+            <th>Price</th>
+        </tr>
+    <tr>
+
+    <?php foreach($name as $item): ?>
+        <td><?=$item?></td>
+        <?php foreach($price as $item2): ?>
+            <td><?=$item2?></td>
+            </tr>
+        <?php endforeach; ?>
+    <?php endforeach; ?>
+    </table>
+
+    </body>
+</html>
